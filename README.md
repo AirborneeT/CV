@@ -31,12 +31,12 @@ During the academic tenure, engaged in multifactor analysis, behavioral finance,
 
 <table style="border-collapse: collapse; width=100%">
     <tr>
-        <td><a href="https://bolunhan.github.io/CV/zh" target="_blank">中文简历</a></td>
-        <td><button onclick="printPage('https://bolunhan.github.io/CV/zh')">导出简历</button></td>
+        <td><a href="https://AirborneeT.github.io/CV/zh" target="_blank">中文简历</a></td>
+        <td><button onclick="printPage('https://AirborneeT.github.io/CV/zh')">导出简历</button></td>
     </tr>
     <tr>
-        <td><a href="https://bolunhan.github.io/CV/en" target="_blank">English CV</a></td>
-        <td><button onclick="printPage('https://bolunhan.github.io/CV/en')">Export CV</button></td>
+        <td><a href="https://AirborneeT.github.io/CV/en" target="_blank">English CV</a></td>
+        <td><button onclick="printPage('https://AirborneeT.github.io/CV/en')">Export CV</button></td>
     </tr>
 </table>
 
