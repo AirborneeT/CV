@@ -112,7 +112,7 @@ Please provide the HTML code following these specifications when converting the 
     2021年6月从重庆大学金融专业本科毕业。在太平资产、诺亚国际、国金证券研究所、太平金融服务进行了实习。主要经历包括资产基本面分析、市场及行业研究、客户数据分析和金融产品风险模型开发。2024年1月获得新加坡南洋理工大学应用经济学硕士学位，专注于数据分析与机器学习，数量方法，实验经济学等。在校期间，参与了多因子分析、行为金融研究、二级市场研究，并且精通多种编程语言和软件工具。
     </p>
 
-    <!-- Script for Printing the CV -->
+    <!--
     <script>
         function printPage(url) {
             var newWindow = window.open(url, "_blank");
@@ -121,16 +121,17 @@ Please provide the HTML code following these specifications when converting the 
             };
         }
     </script>
+    -->
 
-    <!-- Links to CVs and Print Buttons -->
+    <!-- Links to CVs and Download PDF Button -->
     <table>
         <tr>
             <td><a href="https://AirborneeT.github.io/CV/zh" target="_blank">中文简历</a></td>
-            <td><button onclick="printPage('https://AirborneeT.github.io/CV/zh')">导出简历</button></td>
+            <td><button onclick="window.location.href='https://AirborneeT.github.io/CV/CV_ZH.pdf'">导出简历</button></td>
         </tr>
         <tr>
             <td><a href="https://AirborneeT.github.io/CV/en" target="_blank">English CV</a></td>
-            <td><button onclick="printPage('https://AirborneeT.github.io/CV/en')">Export CV</button></td>
+            <td><button onclick="window.location.href='https://AirborneeT.github.io/CV/CV_EN.pdf'">Export CV</button></td>
         </tr>
     </table>
 
@@ -151,4 +152,5 @@ Please provide the HTML code following these specifications when converting the 
 
 </body>
 </html>
+
 
