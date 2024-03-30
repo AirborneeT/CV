@@ -77,4 +77,4 @@ Singapore
 
 *Language*: Fluent in English <br>
 *Programming*:  Master in Python, R, MySQL <br>
-*Software*: Github, 4Matlab, Excel <br>
+*Software*: Github, Matlab, Excel <br>
