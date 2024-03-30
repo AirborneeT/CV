@@ -32,95 +32,86 @@ Please provide the HTML code following these specifications when converting the 
 -->
 
 <!-- Your HTML content goes here -->
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal CV of Han Bolun</title>
+    <title>Personal CV of Leon</title>
     <style>
         body {
-            background-color: rgb(68, 70, 84);
-            color: rgb(233, 233, 238);
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        h1 {
-            color: rgb(233, 233, 238);
-            /* Text color */
-        }
-
-        p {
-            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
-
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #5cb85c;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4cae4c;
+        }
         a {
-            color: #3bb3e0;
             text-decoration: none;
+            color: #333;
         }
-
         a:hover {
             text-decoration: underline;
         }
-
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin-top: 20px;
-            border-radius: 10px;
-            /* Rounded corners for the table */
-            border: 1px solid rgb(233, 233, 238);
-            /* Text color */
-        }
-
-        th,
-        td {
-            padding: 8px;
-            text-align: left;
-            border: 1px solid rgb(233, 233, 238);
-            /* Text color */
-        }
-
-        button {
-            background-color: rgb(16, 163, 127);
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        button:hover {
-            background-color: rgb(26, 127, 100);
+        .update-info {
+            font-style: italic;
+            text-align: right;
         }
     </style>
 </head>
 <body>
 
+<div class="container">
     <!-- Personal Introduction -->
+    <h1>Personal CV of Leon</h1>
     <p>
     Graduated with a Bachelor's degree in Finance from Chongqing University in June 2021, Leon has completed internships at several financial institutions including Guojin Securities Research Institute, Taiping Financial Services, Taiping Assets, and Noah International. He focused on fundamental asset analysis, market and industry research, customer data analytics, and the development of risk models for financial products. He obtained a Master's degree in Applied Economics at Nanyang Technological University in Singapore in January 2024, specializing in data analysis and machine learning. During his academic journey, he engaged in multifactor analysis, behavioral finance research, secondary market research, and developed proficiency in various programming languages and software tools.
     </p>
-    
+
     <!-- Chinese Translation -->
     <p>
     2021年6月从重庆大学金融专业本科毕业。在太平资产、诺亚国际、国金证券研究所、太平金融服务进行了实习。主要经历包括资产基本面分析、市场及行业研究、客户数据分析和金融产品风险模型开发。2024年1月获得新加坡南洋理工大学应用经济学硕士学位，专注于数据分析与机器学习，数量方法，实验经济学等。在校期间，参与了多因子分析、行为金融研究、二级市场研究，并且精通多种编程语言和软件工具。
     </p>
-    
-    <!-- Script for Printing the CV -->
-    <script>
-        function printPage(url) {
-            var newWindow = window.open(url, "_blank");
-            newWindow.onload = function () {
-                newWindow.print();
-            };
-        }
-    </script>
-    
+
     <!-- Links to CVs -->
     <table>
         <tr>
@@ -132,7 +123,7 @@ Please provide the HTML code following these specifications when converting the 
             <td><button onclick="printPage('https://AirborneeT.github.io/CV/en')">Export CV</button></td>
         </tr>
     </table>
-    
+
     <!-- Professional Experience -->
     <p>
     Basic Experience:
@@ -143,9 +134,21 @@ Please provide the HTML code following these specifications when converting the 
         <li>During the academic journey, engaged in multifactor analysis, behavioral finance, secondary market research, and data cleansing. Additionally, developed practical skills in various programming languages and software tools.</li>
     </ul>
     </p>
-    
+
     <!-- Update Information -->
-    <p>Last update: March 2024</p>
-    
-    </body>
+    <p class="update-info">Last update: March 2024</p>
+
+</div>
+
+<!-- Script for Printing the CV -->
+<script>
+    function printPage(url) {
+        var newWindow = window.open(url, "_blank");
+        newWindow.onload = function () {
+            newWindow.print();
+        };
+    }
+</script>
+
+</body>
 </html>
