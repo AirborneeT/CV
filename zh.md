@@ -88,7 +88,7 @@ Supported arguments:
 
 *语言技能*: 流利使用英语 <br>
 *编程技能*: Python，R, MySQL <br>
-*软件技能*: :Linux, Github, Excel, Matlab <br>
+*软件技能*: Linux, Github, Excel, Matlab <br>
 
 <!-- ### Footer
 
