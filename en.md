@@ -5,7 +5,7 @@ email:
   url: mailto:airbornee_t@163.com
   text: airbornee_t@163.com
 phone:
-  url: tel:+8615730339819
+  url: tel:+86 15730339819
   text: 
 ---
 
