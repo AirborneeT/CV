@@ -79,11 +79,11 @@ Supported arguments:
 
 ## 项 目 经 历
 
-进行Tradedata的数据清洗与处理，使用sklearn的数据集进行模型验证与测试
+进行Tradedata数据清洗与预处理，使用sklearn的数据集进行模型验证与测试
 
 蒙特卡洛期权定价，并用plotly实现可视化
 
-筹码分布因子挖掘，使用kde方法进行拟合
+筹码分布因子挖掘，使用kde拟合
 
 参与编写quantile loss的api对缝代码和文档
 
