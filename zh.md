@@ -79,15 +79,24 @@ Supported arguments:
 
 ## 项 目 经 历
 
-进行Tradedata数据清洗与预处理，使用sklearn的数据集进行模型验证与测试
+### **进行Tradedata数据清洗与预处理**
+1. 使用autoencoder进行深度学习数据补全
+2. 使用sklearn的数据集进行模型验证与测试
+3. 使用api进行数据筛选
 
-蒙特卡洛期权定价，并用plotly实现可视化
+### **蒙特卡洛期权定价** 
+1. 进行Vanilla和Snowball期权定价
+2. 将plotly dash集成进flask实现数据可视化
 
-筹码分布因子挖掘，使用kde拟合
+### **筹码分布因子挖掘**
+1. 使用kde拟合双峰
 
-参与编写quantile loss的api对缝代码和文档
+### **参与quantile loss模型优化** 
+1. 参与编写api对缝代码和文档，对比quantile loss较于bootstrap的优缺点
+2. 进行quantile loss模型验证与测试
 
-参与Supervised Hidden Markov，标记 upward 和 downward regime.
+### **参与Supervised Hidden Markov**
+1. 标记 upward 和 downward regime
 
 
 ## 获 奖 荣 誉
