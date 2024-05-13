@@ -86,15 +86,17 @@ Supported arguments:
 
 ### **蒙特卡洛期权定价** 
 1. GPU加速
-2. 将plotly dash集成进flask实现数据可视化
+2. 用dash将plotly的结果在flask中展示实现数据可视化
 
 ### **筹码分布因子挖掘**
 1. 对买方和卖方筹码进行统计
 2. 使用kde双峰拟合
 
 ### **参与quantile loss模型优化** 
-1. 参与编写api对缝代码和文档，对比quantile loss较于bootstrap的优缺点
+1. 使用继承等方法使其适用于新的api
 2. 进行quantile loss模型验证与测试
+3. 对比quantile loss较于bootstrap的优缺点，完成研究报告
+
 
 ### **参与Supervised Hidden Markov**
 1. 标记 upward 和 downward regime
