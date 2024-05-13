@@ -82,10 +82,10 @@ Supported arguments:
 ### **进行Tradedata数据清洗与预处理**
 1. 使用autoencoder进行深度学习数据补全
 2. 使用sklearn的数据集进行模型验证与测试
-3. 使用api进行数据筛选
+3. 使用PyQuantKit进行数据筛选
 
 ### **蒙特卡洛期权定价** 
-1. 进行Vanilla和Snowball期权定价
+1. GPU加速
 2. 将plotly dash集成进flask实现数据可视化
 
 ### **筹码分布因子挖掘**
