@@ -89,7 +89,8 @@ Supported arguments:
 2. 将plotly dash集成进flask实现数据可视化
 
 ### **筹码分布因子挖掘**
-1. 使用kde拟合双峰
+1. 对买方和卖方筹码进行统计
+2. 使用kde双峰拟合
 
 ### **参与quantile loss模型优化** 
 1. 参与编写api对缝代码和文档，对比quantile loss较于bootstrap的优缺点
