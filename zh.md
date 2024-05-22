@@ -9,7 +9,7 @@ phone:
   text: (86) 15730339819
 ---
 
-# Leon
+# 梁嘉璇
 
 <!--
 include contact information from the front matter
@@ -92,15 +92,6 @@ Supported arguments:
 1. 对买方和卖方筹码进行统计
 2. 使用kde双峰拟合
 
-### **参与quantile loss模型优化** 
-1. 使用继承等方法使其适用于新的api
-2. 进行quantile loss模型验证与测试
-3. 对比quantile loss较于bootstrap的优缺点，完成研究报告
-
-
-### **参与Supervised Hidden Markov**
-1. 标记 upward 和 downward regime
-
 
 ## 获 奖 荣 誉
 
@@ -112,7 +103,7 @@ Supported arguments:
 
 *语言技能*: 流利使用英语 <br>
 *编程技能*: Python,R, MySQL <br>
-*软件技能*: Linux, Github, Excel, Matlab <br>
+*软件技能*: Linux, Excel, Matlab <br>
 
 <!-- ### Footer
 
